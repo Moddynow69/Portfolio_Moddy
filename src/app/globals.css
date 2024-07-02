@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+  box-shadow: 0 0 10px 5px rgb(82, 132, 135);
+}
